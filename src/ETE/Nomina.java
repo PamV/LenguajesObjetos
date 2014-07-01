@@ -20,7 +20,7 @@ public class Nomina {
     }
 
     public void setSaldo(float saldo)throws SaldoFueraDeRangoException{
-   if (saldo<20000&&saldo>25000) throw new SaldoFueraDeRangoException();  
+   if (saldo<20000||saldo>25000) throw new SaldoFueraDeRangoException();  
    else this.saldo = saldo;
     }
     

@@ -23,7 +23,7 @@ public class TestNomina {
         
         Nomina n2=new Nomina(2,(float)27496.50);
      System.out.println(n2.getidTrabajador());
-     n2.setSaldo(40000);
+     n2.setSaldo(26000);
        System.out.println(n2.getSaldo());
      }catch(SaldoFueraDeRangoException e){
 System.out.println(e.getMessage());
